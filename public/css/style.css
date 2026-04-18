@@ -134,7 +134,7 @@ body {
 }
 
 .info-card {
-    background: rgb(152, 131, 131);
+    background: rgb(242, 159, 159);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -170,7 +170,7 @@ body {
 }
 
 .video-card {
-    background: black;
+    background: rgb(122, 116, 116);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);

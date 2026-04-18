@@ -42,9 +42,12 @@ $home_content = getContent($pdo, 'home');
 
     <!-- Background Slider -->
     <div class="slider">
-        <img src="../uploads/images/temple1.png" class="slide active">
-        <img src="../uploads/images/temple2.png" class="slide">
-        <img src="../uploads/images/temple3.png" class="slide">
+        <img src="../assets/images/temple1.png" class="slide active">
+        <img src="../assets/images/temple2.png" class="slide">
+        <img src="../assets/images/temple3.png" class="slide">
+        <img src="../assets/images/temple4.png" class="slide >
+
+        <img src="../assets/images/temple6.png" class="slide">
     </div>
 
     <nav class="navbar">
@@ -75,7 +78,7 @@ $home_content = getContent($pdo, 'home');
             <div class="buttons">
                 <a href="about.php" class="btn btn-primary">Learn More</a>
                 <a href="location.php" class="btn btn-secondary">Visit Us</a>
-            </div>
+            </div><br>
         </section>
 
         <section class="info-grid">
