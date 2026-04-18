@@ -7,9 +7,9 @@
 
 /* VARIABLES */
 :root {
-    --primary-color: #8B4513;
+    --primary-color: #f02929;
     --secondary-color: #D4AF37;
-    --dark-color: #4a3728;
+    --dark-color: #e76920;
     --light-color: #f5f5f5;
     --text-color: #333;
 }
@@ -93,7 +93,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    color: rgb(236, 121, 121);
     position: relative;
 }
 
@@ -134,7 +134,7 @@ body {
 }
 
 .info-card {
-    background: white;
+    background: rgb(222, 91, 91);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -170,7 +170,7 @@ body {
 }
 
 .video-card {
-    background: rgba(255,255,255,0.95);
+    background: linear-gradient(red,yellow);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);

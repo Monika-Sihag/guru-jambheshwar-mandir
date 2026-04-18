@@ -15,7 +15,7 @@ $videos = getAllVideos($pdo);
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <h1 class="logo">🛕 Guru Jambheshwar Mandir</h1>
+            <h1 class="logo">🛕 श्री गुरु जंभेश्वर भगवान मंदिर </h1>
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
@@ -26,13 +26,13 @@ $videos = getAllVideos($pdo);
     </nav>
 
     <div class="page-header">
-        <h1>🎥 Our Videos</h1>
-        <p> Devotional videos and temple updates from our channel</p>
+        <h1>🎥 हमारे वीडियो</h1>
+        <p> हमारे चैनल पर भक्ति वीडियो और मंदिर की ताज़ा जानकारी देखें!</p>
     </div>
 
     <main class="container">
         <section class="videos-section">
-            <h2>Youtube Videos & Devotional Content</h2>
+            <h2>Youtube Videos & Devotional Content</h2><br>
             
             <?php if (empty($videos)): ?>
                 <p class="no-videos-msg">No videos available yet. Check back soon!</p>
@@ -64,7 +64,7 @@ $videos = getAllVideos($pdo);
     <footer class="footer">
         <div class="footer-content">
             <p>&copy; 2026 Guru Jambheshwar Mandir Parta. All rights reserved.</p>
-            <p>Contact: info@guru-jambheshwar.com | Phone: +91-XXXXXXXXXX</p>
+            <p>Contact: info@guru-jambheshwar.com | Phone: +91-7082348532</p>
         </div>
     </footer>
 

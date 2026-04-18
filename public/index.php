@@ -42,9 +42,9 @@ $home_content = getContent($pdo, 'home');
 
     <!-- Background Slider -->
     <div class="slider">
-        <img src="../uploads/images/temple1.jpg" class="slide active">
-        <img src="../uploads/images/temple2.jpg" class="slide">
-        <img src="../uploads/images/temple3.jpg" class="slide">
+        <img src="../uploads/images/temple1.png" class="slide active">
+        <img src="../uploads/images/temple2.png" class="slide">
+        <img src="../uploads/images/temple3.png" class="slide">
     </div>
 
     <nav class="navbar">
