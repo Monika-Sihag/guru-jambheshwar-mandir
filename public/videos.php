@@ -61,8 +61,8 @@ $videos = getAllVideos($pdo);
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer-content">
+    <footer class="footer"><style>background: rgb(205, 71, 71);</style>
+            <div class="footer-content">
             <p>&copy; 2026 Guru Jambheshwar Mandir Parta. All rights reserved.</p>
             <p>Contact: info@guru-jambheshwar.com | Phone: +91-7082348532</p>
         </div>
