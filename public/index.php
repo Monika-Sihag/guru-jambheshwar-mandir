@@ -9,7 +9,7 @@ $home_content = getContent($pdo, 'home');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>श्री गुरु जंभेश्वर भगवान मंदिर पारता</title>
+    <title>Guru Jambheshwar Mandir Parta</title>
     <link rel="stylesheet" href="css/style.css">
 
     <style>

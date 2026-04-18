@@ -53,7 +53,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-    background: red;
+    background: rgb(205, 71, 71);
     padding: 15px 0;
     position: sticky;
     top: 0;

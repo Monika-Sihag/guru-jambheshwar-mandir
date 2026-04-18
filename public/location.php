@@ -38,7 +38,7 @@ $location_content = getContent($pdo, 'location');
                 <div class="location-details">
                     <div class="detail-card">
                         <h3>📍 Address</h3>
-                        <p>Guru Jambheshwar Mandir<br>Parta, Rajasthan<br>India</p>
+                        <p>Guru Jambheshwar Mandir<br>Parta, Fatehabad<br>India</p>
                     </div>
                     <div class="detail-card">
                         <h3>⏰ Timings</h3>
@@ -57,7 +57,7 @@ $location_content = getContent($pdo, 'location');
     <footer class="footer">
         <div class="footer-content">
             <p>&copy; 2026 Guru Jambheshwar Mandir Parta. All rights reserved.</p>
-            <p>Contact: info@guru-jambheshwar.com | Phone: +91-XXXXXXXXXX</p>
+            <p>Contact: info@guru-jambheshwar.com | Phone: +91-7082348531</p>
         </div>
     </footer>
 
