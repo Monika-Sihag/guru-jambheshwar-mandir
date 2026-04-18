@@ -10,7 +10,7 @@
     --primary-color: git #e45555;
     --secondary-color: #D4AF37;
     --dark-color: #e76920;
-    --light-color: #c2b5b5;
+    --light-color: #946060;
     --text-color: #1a1717;
 }
 
@@ -122,7 +122,7 @@ body {
     max-width: 1200px;
     margin: auto;
     padding: 40px 20px;
-    background: rgba(106, 67, 67, 0.9);
+    background: rgba(168, 164, 164, 0.9);
     border-radius: 10px;
 }
 
