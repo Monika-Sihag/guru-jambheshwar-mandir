@@ -7,7 +7,7 @@
 
 /* VARIABLES */
 :root {
-    --primary-color: #f02929;
+    --primary-color: git #e45555;
     --secondary-color: #D4AF37;
     --dark-color: #e76920;
     --light-color: #f5f5f5;
@@ -134,7 +134,7 @@ body {
 }
 
 .info-card {
-    background: rgb(222, 91, 91);
+    background: rgb(152, 131, 131);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -170,7 +170,7 @@ body {
 }
 
 .video-card {
-    background: linear-gradient(red,yellow);
+    background: black;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
