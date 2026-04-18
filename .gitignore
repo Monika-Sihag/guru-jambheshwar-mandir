@@ -1,0 +1,29 @@
+# Local environment
+.env
+.env.local
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP
+*.php~
+*.phar
+
+# Uploads (keep folder, ignore contents)
+uploads/images/*
+!uploads/images/.gitkeep
+uploads/videos/*
+!uploads/videos/.gitkeep
+
+# Cache
+__pycache__/
+*.py[cod]
