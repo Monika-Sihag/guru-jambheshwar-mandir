@@ -11,8 +11,42 @@ $home_content = getContent($pdo, 'home');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guru Jambheshwar Mandir Parta</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* Slider CSS */
+        .slider {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .slide {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .slide.active {
+            opacity: 1;
+        }
+    </style>
 </head>
 <body>
+
+    <!-- Background Slider -->
+    <div class="slider">
+        <img src="../uploads/images/temple1.jpg" class="slide active">
+        <img src="../uploads/images/temple2.jpg" class="slide">
+        <img src="../uploads/images/temple3.jpg" class="slide">
+    </div>
+
     <nav class="navbar">
         <div class="nav-container">
             <h1 class="logo">🛕 Guru Jambheshwar Mandir</h1>
@@ -25,7 +59,8 @@ $home_content = getContent($pdo, 'home');
         </div>
     </nav>
 
-    <header class="hero" style="background-image: url('../uploads/images/<?php echo htmlspecialchars($home_content['background_image']); ?>')">
+    <!-- Hero Section -->
+    <header class="hero">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1><?php echo htmlspecialchars($home_content['title']); ?></h1>
@@ -70,6 +105,17 @@ $home_content = getContent($pdo, 'home');
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <!-- Slider JS -->
+    <script>
+        let slides = document.querySelectorAll('.slide');
+        let index = 0;
+
+        setInterval(() => {
+            slides[index].classList.remove('active');
+            index = (index + 1) % slides.length;
+            slides[index].classList.add('active');
+        }, 3000);
+    </script>
+
 </body>
 </html>

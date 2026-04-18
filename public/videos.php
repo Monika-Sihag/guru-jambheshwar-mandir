@@ -27,12 +27,12 @@ $videos = getAllVideos($pdo);
 
     <div class="page-header">
         <h1>🎥 Our Videos</h1>
-        <p>Devotional videos and temple updates from our channel</p>
+        <p> Devotional videos and temple updates from our channel</p>
     </div>
 
     <main class="container">
         <section class="videos-section">
-            <h2>Temple Videos & Devotional Content</h2>
+            <h2>Youtube Videos & Devotional Content</h2>
             
             <?php if (empty($videos)): ?>
                 <p class="no-videos-msg">No videos available yet. Check back soon!</p>
@@ -56,7 +56,7 @@ $videos = getAllVideos($pdo);
 
         <section class="youtube-channel">
             <h2>Subscribe to Our Channel</h2>
-            <p>Follow us on YouTube for more devotional content, temple updates, and spiritual guidance.</p>
+            <p>Follow us on YouTube for more devotional content, updates, and spiritual guidance.</p>
             <a href="https://www.youtube.com/@gurujambheshwarmandir" class="btn btn-primary" target="_blank">Visit Our YouTube Channel</a>
         </section>
     </main>
