@@ -12,18 +12,32 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Add active class to current navigation link
-document.addEventListener('DOMContentLoaded', function() {
-    const currentPage = window.location.pathname.split('/').pop() || 'index.php';
-    const navLinks = document.querySelectorAll('.nav-links a');
+// document.addEventListener('DOMContentLoaded', function() {
+//     const currentPage = window.location.pathname.split('/').pop() || 'index.php';
+//     const navLinks = document.querySelectorAll('.nav-links a');
     
-    navLinks.forEach(link => {
-        const href = link.getAttribute('href');
-        if (href === currentPage || (currentPage === '' && href === 'index.php')) {
-            link.style.color = '#D4AF37';
-        }
-    });
-});
+//     navLinks.forEach(link => {
+//         const href = link.getAttribute('href');
+//         if (href === currentPage || (currentPage === '' && href === 'index.php')) {
+//             link.style.color = '#D4AF37';
+//         }
+//     });
+// });
+document.addEventListener("DOMContentLoaded", function () {
 
+    // 🔥 SLIDER
+    let slides = document.querySelectorAll(".slide");
+    let index = 0;
+
+    if (slides.length > 0) {
+        setInterval(() => {
+            slides[index].classList.remove("active");
+            index = (index + 1) % slides.length;
+            slides[index].classList.add("active");
+        }, 3000);
+    }
+
+});
 // Add scroll effect to navbar
 let lastScrollTop = 0;
 const navbar = document.querySelector('.navbar');
