@@ -209,7 +209,7 @@ body {
 .youtube-channel {
     margin-top: 40px;
     background: linear-gradient(135deg, var(--primary-color), var(--dark-color));
-    color: white;
+    color: rgb(81, 77, 77);
     padding: 30px;
     border-radius: 10px;
     text-align: center;
